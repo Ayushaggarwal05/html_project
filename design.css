@@ -1,0 +1,201 @@
+
+html {
+    background-color: rgb(34, 32, 32);
+    font-weight: 100;
+    color: white;
+}
+
+/* body { */
+     /* min-height: 100vh; */
+    /* max-width: 1400px; */
+    /* width: 80%; */
+    /* align-items: center; */
+    /* margin: 0 auto;
+    position: relative; */
+    /* display: flex;  */
+     
+/* } */
+
+
+.heading{
+    color: brown;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.subparts{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px; 
+    
+}
+a:active, a:visited{
+    color: aliceblue;
+}
+
+
+header {
+    width: 20%;
+    /* min-height: 80vh; */
+    /* float: right; */
+    position:fixed;
+    display: flexbox;
+    align-items:flex-end;
+    flex-direction: row;
+    margin-left: 50px;
+    /* left: 60px; */
+    /* top: 12px; */
+    /* border-right: 1px solid white; */
+    background-color: rgb(54,49,49);
+}
+
+header section{
+    padding: 10px 0px 5px 10px;
+}
+header article{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0 0 20px;
+
+}
+
+header article a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header section a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+}
+
+header section a:hover{
+    color: rgb(191, 49, 49);
+}
+
+header section a i{
+    margin-right: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+header button{
+    border: 1px solid black;
+    border: none;
+    width: 90%;
+    height: 80px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    /* background-color:rgb(53,52,52) ; */
+    background-color:rgb(50, 48, 48) ;
+    
+}
+header  button:hover{
+    /* background-color: rgb(78, 78, 224); */
+    color:aquamarine;
+    /* text-shadow: 2px 2px 5px  aquamarine; */
+    text-shadow: 2px 1px 5px slategray;
+    background-color: rgba(79, 74, 74, 0.3);
+    transition: .3s linear;
+}
+header  button .profile_pic{
+    width: 60px;
+    height: 60px;
+    margin: 10px 5px 10px 10px;
+    float: left;
+    border-radius: 50%; 
+    margin-right:15px;
+}
+
+header  button a{
+    text-decoration: none;
+    width: 100%;
+    /* font-weight: 200; */
+    display: flex;
+    font-weight: 500;
+    font-size: 15px;
+    /* background-color: rgb(53,52,52); */
+    /* border-radius: 40px; */
+}
+
+
+main{
+    width: 75%;
+    float: right;
+    padding-left: 5px;
+    
+}
+.main_body{
+    width: 60%;
+    min-height: 100vh;
+    /* padding-left: 40px; */
+    position: relative;
+}
+
+.main_body fieldset{
+    padding-left: 20px;
+    border: none;
+}
+
+.main_body fieldset textarea{
+    color: aliceblue;
+    font-style:oblique;
+}
+
+.main_body fieldset button{
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 2px;
+    border: none;
+    outline: none;
+    transition: .3s linear;
+    cursor: pointer;
+}
+.main_body fieldset button:hover{
+    background: rgb(239, 111, 42);
+}
+
+.rightarea{
+    width: 25%;
+    height: 50vh;
+    float: right;
+    position:fixed;
+    display: flexbox;
+    align-items:start;
+    right: 70px;
+    top: 12px;
+    /* border-left: 1px solid white; */
+    background-color: rgb(54, 49, 49);
+    
+}
+.lower_rightarea{
+    width: 25%;
+    height: auto;
+    position: fixed ;
+    display: flexbox;
+    bottom: 12px;
+    right: 70px;
+    /* border-left: 1px solid white; */
+    background-color: rgb(54, 49, 49);
+    
+}
+
+
+
