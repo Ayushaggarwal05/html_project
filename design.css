@@ -97,7 +97,6 @@ header button{
     border: none;
     width: 90%;
     height: 80px;
-    margin-left: 10px;
     margin-bottom: 20px;
     margin-left: 15px;
     border-radius: 40px;
@@ -126,19 +125,15 @@ header  button .profile_pic{
 
 header  button a{
     text-decoration: none;
-    width: 100%;
-    /* font-weight: 200; */
     display: flex;
     /* flex-direction: column; */
     font-weight: 500;
     font-size: 15px;
-    /* background-color: rgb(53,52,52); */
-    /* border-radius: 40px; */
 }
-header  button a.id_card{
-    text-align:end;
+header  button a div{
+    text-align: center;
+    text-align-last:center;
 }
-
 
 main{
     width: 75%;
