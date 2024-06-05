@@ -47,13 +47,14 @@ header {
     width: 20%;
     /* min-height: 80vh; */
     /* float: right; */
+    border-radius: 30px;
     position:fixed;
     display: flexbox;
     align-items:flex-end;
     flex-direction: row;
     margin-left: 50px;
     /* left: 60px; */
-    /* top: 12px; */
+    top: 12px;
     /* border-right: 1px solid white; */
     background-color: rgb(54,49,49);
 }
@@ -180,21 +181,34 @@ main{
     align-items:start;
     right: 70px;
     top: 12px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
     /* border-left: 1px solid white; */
     background-color: rgb(54, 49, 49);
     
 }
-.lower_rightarea{
+main .lower_rightarea{
     width: 25%;
     height: auto;
     position: fixed ;
     display: flexbox;
     bottom: 12px;
     right: 70px;
+    border-radius: 15px;
+    border-bottom-right-radius:0;
     /* border-left: 1px solid white; */
     background-color: rgb(54, 49, 49);
     
 }
 
+main .lower_rightarea .lower_img{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    height: 330px;
+    justify-content: center;
+    border-radius: 15px;
+    border-bottom-right-radius:0;
+}
 
 
