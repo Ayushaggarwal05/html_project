@@ -17,14 +17,7 @@ html {
     border: 1px solid black;
 }
 
-.subparts{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px; 
-    
-}
+
 a:active, a:visited{
     color: aliceblue;   
 }
@@ -126,6 +119,14 @@ main{
     /* padding-left: 40px; */
     position: relative;
 }
+.main_body .profile_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px; 
+    
+}
 
 .main_body fieldset{
     padding-left: 20px;
@@ -154,7 +155,7 @@ main{
     background: rgb(239, 111, 42);
 }
 
-.rightarea{
+main .rightarea{
     width: 25%;
     height: 50vh;
     float: right;
@@ -169,7 +170,7 @@ main{
     background-color: rgb(54, 49, 49);
     
 }
-.lower_rightarea{
+main .lower_rightarea{
     width: 25%;
     height: auto;
     position: fixed ;
