@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(243, 73, 12, 0.896);
+
+}
+body{
+    background: url("pics/night_sky_girl.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(18, 18, 18, 0.251);
+    
+}
+.form{
+    width: 400px;
+    border: 1px solid #0000003c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+    backdrop-filter: blur(10px);
+    
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+.input-btn{
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+
+
+}
+.input-btn:focus{
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+
+}
+.input-btn::placeholder{
+    color: #fff;
+}
+button{
+    background-color: rgb(26, 173, 114);
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.332) ;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
