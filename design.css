@@ -118,22 +118,30 @@ header  button:hover{
 header  button .profile_pic{
     width: 60px;
     height: 60px;
-    margin: 15px 5px 10px 10px;
+    margin: 15px 5px 15px 10px;
     float: left;
     border-radius: 50%; 
     margin-right:20px;
+    justify-content: center;
 }
 
 header  button a{
     text-decoration: none;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
     font-weight: 500;
     font-size: 15px;
 }
-header  button a div{
-    text-align: center;
-    text-align-last:center;
+header  button .profile_area{
+    margin-top: 30px;
+}
+header  button .profile_name{
+    padding: 0;
+    margin: 0;
+}
+header  button .profile_id{
+    padding: 0;
+    margin: 0;
 }
 
 main{
